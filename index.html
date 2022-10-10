@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <h1>Chechk Your BMI</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required id="bb" />
+          <span></span>
+          <label>Weight (kG)</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" required id="tb" />
+          <span></span>
+          <label>Height (CM)</label>
+        </div>
+        <button onclick="bmi()" id="button" type="button">calculate bmi</button>
+        <div id="result"></div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
